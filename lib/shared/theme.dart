@@ -11,12 +11,15 @@ Color colorRed = const Color(0xffE80000);
 Color colorOrange = const Color(0xffF8990B);
 Color colorGreen = const Color(0xff3BB800);
 
+TextStyle greyWhiteTextStyle = GoogleFonts.poppins(color: colorGreyWhite);
+TextStyle greyDarkTextStyle = GoogleFonts.poppins(color: colorGreyDark);
 TextStyle greyTextStyle = GoogleFonts.poppins(color: colorGrey);
 TextStyle blackTextStyle = GoogleFonts.poppins(color: colorBlack);
 TextStyle whiteTextStyle = GoogleFonts.poppins(color: colorWhite);
 TextStyle redTextStyle = GoogleFonts.poppins(color: colorRed);
 TextStyle orangeTextStyle = GoogleFonts.poppins(color: colorOrange);
 TextStyle greenTextStyle = GoogleFonts.poppins(color: colorGreen);
+TextStyle mainTextStyle = GoogleFonts.poppins(color: colorMain);
 
 FontWeight reguler = FontWeight.w400;
 FontWeight medium = FontWeight.w500;

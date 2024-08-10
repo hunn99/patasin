@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:patasin/shared/theme.dart';
-import 'package:patasin/views/pages/splash_screen.dart';
+import 'package:patasin/views/pages/register.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: colorMain),
         useMaterial3: true,
       ),
-      home: const SplashScreen(),
+      home: const Register(),
     );
   }
 }
